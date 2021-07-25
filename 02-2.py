@@ -116,3 +116,35 @@ print (weather)
 a="20010331Rainy"
 year = a[:4]
 day = a[4:8]
+weather = a[8:]
+print(year)
+print (day)
+print (weather)
+
+#Changing string
+# a="Pithon"
+# print(a[1])
+# a[1]='y'
+# print(a[1])
+
+a="Pithon"
+a[:1]
+print(a[:1])
+a[2:]
+print(a[2:])
+a[:1] + 'y' + a[2:]
+print(a[:1] + 'y' + a[2:])
+# 'P'+'y' + 'thon'
+
+# String Formatting
+# 1. number
+a = "I eat %d apples." % 3
+print (a)
+# 2. String
+a = "I eat %s apples." % "five"
+print(a)
+# 3.
+number = 3
+a = "I eat %d apples." % number
+print(a)
+# 4.
