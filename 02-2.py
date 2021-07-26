@@ -137,7 +137,7 @@ print(a[:1] + 'y' + a[2:])
 # 'P'+'y' + 'thon'
 
 # String Formatting
-# 1. number
+# 1. Integer
 a = "I eat %d apples." % 3
 print (a)
 # 2. String
@@ -147,4 +147,8 @@ print(a)
 number = 3
 a = "I eat %d apples." % number
 print(a)
-# 4.
+# 4. 2 or more
+number = 10
+day = "three"
+a = "I ate %d apples. so I was sick for %s days" % (number, day)
+print(a)
